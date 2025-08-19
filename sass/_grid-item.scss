@@ -38,7 +38,7 @@
     }
     @include PC{
 
-        &:nth-child(1) {
+    &:nth-child(1) {
         grid-row: 1 / 3;
     }
 
