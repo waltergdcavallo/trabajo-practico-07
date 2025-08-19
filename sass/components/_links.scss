@@ -1,0 +1,14 @@
+.papi{
+    text-align: center;
+
+    i{
+        margin: 3.125rem;
+        font-size: 3.125rem;
+        color:$clr-main;
+
+        &:hover{
+                transition: 1s;
+                color: white;
+        }
+    }
+}

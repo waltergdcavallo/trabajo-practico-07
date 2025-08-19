@@ -1,0 +1,13 @@
+.bichito{
+    background-color: $clr-main;
+
+    button{
+
+        &:hover {
+
+        transform: scale(1.05);
+        box-shadow: $box-shadow-expand;
+        border-color: black;
+        }
+    }
+}
