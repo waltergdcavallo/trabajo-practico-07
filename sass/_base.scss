@@ -1,3 +1,8 @@
+
+:root{
+    font-family: 'Poppins', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,23 +10,23 @@
 }
 
 body {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: $clr-light;
+    color: $clr-dark;
     min-height: 100vh;
 
 }
 
 a {
-    color: var(--clr-dark);
+    color: $clr-dark;
     text-decoration: none;
 }
 
 header {
-    background-color: var(--clr-main);
+    background-color: $clr-main;
     display: flex;
     justify-content: space-between;
     padding: .5em 2em;
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
 
         .titulo{
         font-size: 2.5rem;
