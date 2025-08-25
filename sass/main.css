@@ -4,6 +4,86 @@
   font-family: "Playfair Display", serif;
 }
 
+body.dark-mode {
+  background-color: #181818;
+  color: #ffe066;
+}
+body.dark-mode header,
+body.dark-mode .navbar,
+body.dark-mode .bichito,
+body.dark-mode .corazoncito,
+body.dark-mode .papi,
+body.dark-mode .grid-item,
+body.dark-mode .navbar-brand,
+body.dark-mode .navbar-toggler,
+body.dark-mode .dropdown-menu,
+body.dark-mode .distinto {
+  background-color: #181818 !important;
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode .navbar .nav-link,
+body.dark-mode .navbar .dropdown-item,
+body.dark-mode .navbar .navbar-brand,
+body.dark-mode .navbar .navbar-toggler,
+body.dark-mode .navbar .dropdown-menu,
+body.dark-mode .navbar .navbar-toggler-icon,
+body.dark-mode .navbar .active,
+body.dark-mode .navbar .show,
+body.dark-mode .navbar .form-control,
+body.dark-mode .navbar .btn {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+  background-color: #181818 !important;
+}
+body.dark-mode .corazoncito {
+  background: linear-gradient(90deg, #181818 60%, #ffe066 100%) !important;
+}
+body.dark-mode .corazoncito h3 {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+body.dark-mode .papi {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+body.dark-mode .papi i {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode .grid-item {
+  border: 2px solid #ffe066 !important;
+}
+body.dark-mode .grid-item p,
+body.dark-mode .grid-item i {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode .titulo,
+body.dark-mode .distinto {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode a,
+body.dark-mode a:hover,
+body.dark-mode a:focus {
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #181818 !important;
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+body.dark-mode button,
+body.dark-mode .btn {
+  background-color: #181818 !important;
+  color: #ffe066 !important;
+  border-color: #ffe066 !important;
+}
+
 :root {
   font-family: "Poppins", sans-serif;
 }
@@ -80,7 +160,7 @@ a {
 .papi i {
   margin: 3.125rem;
   font-size: 3.125rem;
-  color: #fee801;
+  color: #27292b;
 }
 .papi i:hover {
   transition: 1s;
@@ -162,10 +242,9 @@ header .titulo {
 }
 
 .corazoncito {
-  /*     background-color:$clr-main;
-      background-color: black; */
   background: linear-gradient(#fee801 50%, black 60%, black 60%);
 }
 .corazoncito h3 {
   text-align: center;
+  color: #fee801;
 }/*# sourceMappingURL=main.css.map */
